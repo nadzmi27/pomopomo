@@ -12,10 +12,10 @@
     <main class="bg-mainBackground flex flex-col w-full font-mainFont mx-auto">
 
         <!-- First half -->
-        <div class="grid grid-cols-5 h-[250px] w-full items-start pt-10 px-14">
+        <div class="grid grid-cols-5 h-[200px] w-full pt-1 pb-2 px-14 -mt-10">
 
             <!-- Logo pomopomo -->
-            <div class="col-span-1">
+            <div class="flex items-end col-span-1">
                 <svg width="166" height="134" viewBox="0 0 166 134" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M97.0546 11.9127C26.3995 -18.3097 3.4213e-05 15.6153 0 40.1969C-5.47113e-05 79.5064 20.6817 149.956 97.0546 130.352C192.521 105.847 185.373 49.6907 97.0546 11.9127Z"
@@ -31,21 +31,22 @@
             </div>
 
             <!-- Music player -->
-            <div class="col-span-2 justify-self-end w-[50%]">
-                <img src="./img/music_player.png" alt="music_player" class="object-scale-down">
+            <div class="flex items-center col-span-2 justify-self-end content-center w-[350px]">
+                <img src="./img/music_player.png" alt="music_player" class="">
             </div>
 
             <!-- About and coffee -->
-            <div class="col-span-2 justify-self-end">
-                <span>About</span>
-                <a href="#" class="rounded-2xl text-center py-3 px-10 bg-pallete-primary text-[28px] inline-block text-white font-semibold">☕ Buy us a coffee</a>
+            <div class="flex items-center col-span-2 justify-self-end pr-[10%]">
+                <span class="font-semibold text-black">About</span>
+                <a href="#" class="button px-7 rounded-xl bg-[#262C31] text-[16px] inline-block text-white tracking-wider ml-6">☕ Buy us a coffee</a>
             </div>
         </div>
         <!-- First half end -->
 
 
+        
         <!-- Lower half -->
-        <div class="flex justify-between w-full px-20">
+        <div class="flex justify-between w-full px-20 mt-[5%]">
             <!-- Image -->
             <div class="w-[47.5%] justify-self-start -ml-[111px]">
                 <img src="./img/girl_airplane.png" alt="girl paper airplane" class="object-scale-down">
@@ -68,10 +69,10 @@
 
                 <!-- Buttons -->
                 <div class="mt-8 flex gap-6">
-                    <a href="#" class="button px-12 bg-pallete-primary text-white font-semibold">
+                    <a href="#" class="button px-12 bg-pallete-primary text-white">
                         Log in
                     </a>
-                    <a href="#" class="button px-10 bg-[#E0E4E5] text-[#464B55] font-semibold">
+                    <a href="#" class="button px-10 bg-[#E0E4E5] text-[#464B55]">
                         Continue as a guest
                     </a>
                 </div>
@@ -84,12 +85,12 @@
                         <img src="./img/google_logo.png" alt="" class="">
                     </div>
 
-                    <!-- Google -->
+                    <!-- Facebook -->
                     <div class="w-12 ml-2 border-4 border-[#464B55] rounded-full">
                         <img src="./img/facebook_logo.png" alt="" class="">
                     </div>
 
-                    <!-- Google -->
+                    <!-- Email -->
                     <div class="w-12 ml-2 border-4 border-[#464B55] rounded-full">
                         <img src="./img/mail_logo.png" alt="" class="">
                     </div>
