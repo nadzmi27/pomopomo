@@ -1,5 +1,4 @@
-# pomopomo
-Pomodoro project
-Testing adding new line
+This is a web development project by @a7gela and me. We plan to complete the project within a year of 2023.
 
-https://nadzmi27.github.io/pomopomo/
+- [Design Ideas](https://www.figma.com/file/3hHm2LPEulpZRsPb4b2X8f/PomoPomoPomo-(Copy))
+- [Website Preview](https://nadzmi27.github.io/pomopomo/)
