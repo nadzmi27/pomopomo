@@ -7,7 +7,10 @@ Access the Figma to the design ideas [here!](https://www.figma.com/file/3hHm2LPE
 # Features
 
 # Architecture
+## Overall Architecure
 ![image](https://github.com/user-attachments/assets/d2b656f4-bd6a-4450-a022-aabc81fced41)
+
+## Detailed Architecture
 
 # Milestone/ToDo
 1. Basic Layout + Timer
